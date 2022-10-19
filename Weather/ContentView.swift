@@ -14,6 +14,15 @@ struct ContentView: View {
                             Gradient(colors: [.blue, .white]), startPoint: .topLeading, endPoint: .bottomTrailing)
                 .edgesIgnoringSafeArea(.all
                 )
+            VStack{
+                Text("Vancouver, BC")
+                    .font(.system(size: 32, weight: .medium, design: .default))
+                    .foregroundColor(.white)
+                    .padding()
+                Spacer()// move the text to the top, fill the entire space
+               
+                   
+            }
         }
        
     }
